@@ -17,6 +17,20 @@ public class Registered {
 	public Long getId() {
 		return id;
 	}
+	
+	
+	public Registered () {
+		
+	}
+	
+	public Registered(String nickname, String phone, String email) {
+		this.nickname = nickname;
+		this.phone = phone;
+		this.email = email;
+	}
+
+
+
 	public void setId(Long id) {
 		this.id = id;
 	}
